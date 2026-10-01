@@ -30,7 +30,7 @@ An internal console for a supplies team to search, filter, sort and inspect stoc
 
 ## What it does
 
-- **Sign in** with a DummyJSON account (`emilys` / `emilyspass` is prefilled). Stock is only visible when signed in.
+- **Sign in** with a DummyJSON account (`emilys` / `emilyspass`). Stock is only visible when signed in.
 - **Stock list**: 194 items, 20 per page, with search, category filter, sort and pagination. Each row shows a thumbnail, name, SKU, category, unit price and a stock badge (in stock, low, out of stock).
 - **Item detail** at `/items/:id`. A link pasted into chat opens the same item for a colleague, who signs in first if needed and then lands on it.
 - **Stock correction** from the item detail: set a new count, save, and see the result or the failure.
@@ -63,7 +63,7 @@ npm install          # also installs the git hooks via husky
 npm run dev          # http://localhost:5173
 ```
 
-Sign in with the prefilled `emilys` / `emilyspass`, or any user from [dummyjson.com/users](https://dummyjson.com/users).
+Sign in with  `emilys` / `emilyspass`, or any user from [dummyjson.com/users](https://dummyjson.com/users).
 
 ### Scripts
 

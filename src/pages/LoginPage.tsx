@@ -38,16 +38,10 @@ export function LoginPage() {
       <div className="card login-card">
         <Logo />
         <h1>Sign in to Stock console</h1>
-        <p className="muted">Demo account details are filled in for you.</p>
         <form onSubmit={onSubmit}>
           <label>
             Username
-            <input
-              name="username"
-              autoComplete="username"
-              required
-              defaultValue="emilys"
-            />
+            <input name="username" autoComplete="username" required />
           </label>
           <label>
             Password
@@ -56,7 +50,6 @@ export function LoginPage() {
               type="password"
               autoComplete="current-password"
               required
-              defaultValue="emilyspass"
             />
           </label>
           {error && (
