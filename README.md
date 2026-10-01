@@ -63,7 +63,7 @@ npm install          # also installs the git hooks via husky
 npm run dev          # http://localhost:5173
 ```
 
-Sign in with  `emilys` / `emilyspass`, or any user from [dummyjson.com/users](https://dummyjson.com/users).
+Sign in with `emilys` / `emilyspass`, or any user from [dummyjson.com/users](https://dummyjson.com/users).
 
 ### Scripts
 
